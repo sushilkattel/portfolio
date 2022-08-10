@@ -12,6 +12,7 @@ import './App.css'
 import { MenuComponent } from "./components/MenuComponent"
 import { Introduction } from "./components/Introduction"
 import { Profile } from "./components/Profile"
+import { Skills } from "./components/Skills"
 
 export const App = () => { 
   const config: ThemeConfig = {
@@ -39,6 +40,7 @@ export const App = () => {
           <Introduction />
           <VStack pl={'8%'}>
             <Profile />
+            <Skills />
           </VStack>
         </Stack>
       </Stack>

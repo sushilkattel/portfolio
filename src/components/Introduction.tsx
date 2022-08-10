@@ -16,6 +16,7 @@ export const Introduction = () => {
         rounded={25}
         overflow={"hidden"}
         ml={'10%'}
+        pr={'10%'}
     >
         <link rel="stylesheet" href="https://use.typekit.net/ial4jci.css" />
         <Stack padding={10} align={'flex-start'}>
@@ -29,8 +30,8 @@ export const Introduction = () => {
         </HStack>
         <Text className="Title">Developer</Text>
         <Stack maxWidth={'100%'} align={'flex-start'}>
-        <Text className="Desc" align={'start'} color={descColor}>I design and develop applications using my imagination<br />
-            and bring it to life using JS, TS, NextJs, ExpressJS,<br /> React-Native, Kotlin, and many more!
+        <Text className="Desc" align={'start'} color={descColor}>I design and develop applications using my<br />
+        imagination and bring it to life using React,<br /> NextJS, Express, Kotlin, and many more!
             </Text>
         </Stack>
         <Button size={'lg'} bgColor={'#516B7F'} color={'white'} colorScheme={'twitter'}>Projects</Button>
