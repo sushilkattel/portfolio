@@ -1,9 +1,10 @@
-import { Box, useColorModeValue, Text, HStack, Stack, Button } from "@chakra-ui/react"
+import { Box, useColorModeValue, Text, HStack, Stack, Button, Link } from "@chakra-ui/react"
 import "../App.css"
 
 export const Introduction = () => {
     const textColor = useColorModeValue("white", "black")
     const descColor = useColorModeValue("white", "#6B6868")
+    
   return (
     <Box 
         maxW={'max-content'}
@@ -34,7 +35,9 @@ export const Introduction = () => {
         imagination and bring it to life using React,<br /> NextJS, Express, Kotlin, and many more!
             </Text>
         </Stack>
+        <Link href='https://github.com/sushilkattel' isExternal>
         <Button size={'lg'} bgColor={'#516B7F'} color={'white'} colorScheme={'twitter'}>Projects</Button>
+        </Link>
         </Stack>
     </Box>
   )

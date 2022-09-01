@@ -40,7 +40,9 @@ export const App = () => {
           <Introduction />
           <VStack pl={'8%'}>
             <Profile />
-            <Skills />
+            <Stack pt={'20%'} w={'full'}>
+              <Skills />
+            </Stack>
           </VStack>
         </Stack>
       </Stack>

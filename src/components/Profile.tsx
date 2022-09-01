@@ -2,7 +2,7 @@ import { Avatar, Flex, useColorModeValue } from "@chakra-ui/react"
 import img from '../imgs/profile3.jpeg'
 
 export const Profile = () => {
-    const outlineColor = useColorModeValue("#1A212F", "#FD3C3C")
+    const outlineColor = useColorModeValue("#1A212F", "#516B7F")
   return (
     <Flex pl={'10%'}>
     <Avatar 

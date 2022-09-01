@@ -1,5 +1,5 @@
 import {
-    MenuList, MenuButton, IconButton, Menu, MenuItem
+    MenuList, MenuButton, IconButton, Menu, MenuItem, Link
 } from "@chakra-ui/react"
 import { HamburgerIcon } from "@chakra-ui/icons"
 
@@ -15,12 +15,11 @@ export const MenuComponent = () => {
               cursor={'none'}
             />
             <MenuList>
+              <Link href='https://github.com/sushilkattel' isExternal>
               <MenuItem>
                 Projects
               </MenuItem>
-              <MenuItem>
-                Contact
-              </MenuItem>
+              </Link>
             </MenuList>
           </Menu>
   )
